@@ -1,4 +1,4 @@
-let tg = window.telegram.WebApp;
+let tg = window.Telegram.WebApp;
 
 // растянуть окно
 tg.expand();
