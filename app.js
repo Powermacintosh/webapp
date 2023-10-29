@@ -1,5 +1,5 @@
 let tg = window.Telegram.WebApp;
-
+let user_id = tg.initDataUnsafe.user.id;
 // растянуть окно
 tg.expand();
 
@@ -16,5 +16,5 @@ function fCheck() {
 
 btn.addEventListener('click', function(){
 	tg.MainButton.show();
-	tg.sendData('sendTestMessage');
+	tg.sendData('sendTestMessage' + '' + '1');
 });
