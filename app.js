@@ -1,5 +1,5 @@
 let tg = window.Telegram.WebApp;
-let user_id = tg.initDataUnsafe.user.id;
+// let user_id = tg.initDataUnsafe.user.id;
 // растянуть окно
 tg.expand();
 
