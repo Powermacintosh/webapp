@@ -15,7 +15,6 @@ function fCheck() {
 }
 
 btn.addEventListener('click', function(){
-	tg.MainButton.setText('Сообщение прочитано!');
 	tg.MainButton.show();
-	tg.sendData('sendTestMessage' + ' ' + tg.initDataUnsafe);
+	tg.sendData('sendTestMessage');
 });
