@@ -20,6 +20,7 @@ body {
 }
 
 .inner-checkbox {
+	margin-left: 50px;
 	display: grid;
 	grid-template-columns: 30px 1fr;
 }
