@@ -7,14 +7,12 @@ tg.expand();
 tg.MainButton.textColor = '#FFFFFF';
 tg.MainButton.color = '#FF00FF';
 
-window.addEventListener('load', function() {
-	let btn = document.getElementById('btn');
-	document.addEventListener('change', fCheck);
+let btn = document.getElementById('btn');
+document.addEventListener('change', fCheck);
 
-	function fCheck() {
-		btn.style.display = document.querySelectorAll('.checkbox:checked').length ? 'inline' : 'none';
-	}
-});
+function fCheck() {
+	btn.style.display = document.querySelectorAll('.checkbox:checked').length ? 'inline' : 'none';
+}
 
 btn.addEventListener('click', function(){
 	tg.MainButton.setText('Сообщение прочитано!');
