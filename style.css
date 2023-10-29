@@ -22,7 +22,7 @@ body {
 
 .inner-checkbox {
 	display: grid;
-	grid-template-columns: 20px 1fr;
+	grid-template-columns: 30px 1fr;
 }
 
 .item-text {
