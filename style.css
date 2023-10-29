@@ -22,7 +22,7 @@ body {
 
 .inner-checkbox {
 	display: grid;
-	grid-template-columns: 10px 1fr;
+	grid-template-columns: 20px 1fr;
 }
 
 .item-text {
@@ -38,7 +38,7 @@ body {
 }
 
 .btn {	
-	display: none !important;
+	display: inline-block;
 	padding: 10px 20px;
 	border: none;
 	background: rgb(248, 168, 24);
