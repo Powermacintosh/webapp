@@ -18,7 +18,7 @@ let userid = document.createElement('p');
 userid.innerText = `${tg.initDataUnsafe.user.id}`;
 btn.addEventListener('click', function(){
 	tg.MainButton.show();
-	tg.sendData('sendTestMessage' + ' ' + '1');
+	tg.sendData('sendTestMessage' + ' ' + '2');
 	// tg.close();
 });
 
