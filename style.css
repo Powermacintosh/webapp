@@ -37,8 +37,8 @@ body {
 	text-align: center;
 }
 
-.btn {
-	display: inline-block;
+.btn {	
+	display: none !important;
 	padding: 10px 20px;
 	border: none;
 	background: rgb(248, 168, 24);
